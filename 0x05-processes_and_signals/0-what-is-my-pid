@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# the trick here is the special parameter $$
+echo "PID of the script: $$"

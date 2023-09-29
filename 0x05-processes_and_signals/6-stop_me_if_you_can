@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# to kll a process and others, very powerful
+
+pkill -f 4-to_infinity_and_beyond 

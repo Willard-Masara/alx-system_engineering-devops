@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this code displays the pid and names 
+
+pgrep bash -l

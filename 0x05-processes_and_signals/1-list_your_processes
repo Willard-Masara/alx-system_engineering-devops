@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# the whole trick of this task is the ps command
+
+echo "PID  PPID  USER  COMMAND"
+
+ps -e -o pid,ppid,user,cmd --forest
