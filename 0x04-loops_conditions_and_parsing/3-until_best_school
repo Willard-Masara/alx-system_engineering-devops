@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# this is task 3
+count=0
+
+
+until [ $count -ge 10 ]
+do
+    echo "Best School"
+    ((count++))
+done
