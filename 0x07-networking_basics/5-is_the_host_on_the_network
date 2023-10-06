@@ -1,13 +1,14 @@
-#!/bin/bash
-#if no ip exit, otherwise ping 5 *
+#!/usr/bin/env bash
+# ping 5 times an ip
 
+# Check if an IP address is provided as an argument
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 {IP_ADDRESS}"
     exit 1
 fi
 
-
+# Extract the IP address from the argument
 ip_address="$1"
 
+# Ping the provided IP address 5 times
 ping -c 5 "$ip_address"
-

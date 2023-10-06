@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# to display ip use ifconfig with regexes
-
-ipv4_addresses=$(ifconfig | grep -oE 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -oE '([0-9]*\.){3}[0-9]*')
-
-# Display active IPv4 addresses
-echo "Active IPv4 Addresses:"
-echo "$ipv4_addresses"
