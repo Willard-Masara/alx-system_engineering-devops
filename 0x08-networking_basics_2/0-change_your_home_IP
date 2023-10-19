@@ -9,7 +9,3 @@ fi
 # Modify /etc/hosts file to configure DNS resolution
 echo "127.0.0.2 localhost" >> /etc/hosts
 echo "8.8.8.8 facebook.com" >> /etc/hosts
-
-echo "DNS resolution configured:"
-echo "localhost resolves to 127.0.0.2"
-echo "facebook.com resolves to 8.8.8.8"
