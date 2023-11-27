@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# the script is an ssh config to client
+
+Host *
+    PasswordAuthentification no
+    IdentityFile ~/.ssh/school
+    SendEnv Lang LC_*
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials no
