@@ -1,4 +1,4 @@
-# 0-strace_is_your_friend.pp
+# automating a 500 status return
 
 file { '/etc/apache2/apache2.conf':
   ensure => file,
